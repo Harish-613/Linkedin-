@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LinkedIn++ options</title>
+    <style>
+      body { font: 14px/1.5 -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; margin: 0; color: #191919; }
+      main { max-width: 520px; margin: 32px auto; padding: 0 16px; }
+      h1 { font-size: 20px; margin: 0 0 4px; }
+      label { display: block; font-weight: 600; margin: 20px 0 6px; }
+      .row { display: flex; gap: 8px; }
+      input { flex: 1; padding: 6px 10px; border: 1px solid #c4c4c4; border-radius: 6px; font: inherit; }
+      button { padding: 6px 14px; border: 0; border-radius: 16px; background: #0a66c2; color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+      .ok { color: #057642; } .err { color: #b24020; } .hint { color: #666; font-size: 13px; }
+      code { background: #eef3f8; padding: 0 4px; border-radius: 3px; }
+      @media (prefers-color-scheme: dark) { body { background: #1b1f23; color: #e9e9e9; } input { background: #2c3640; color: inherit; border-color: #4b5662; } code { background: #2c3640; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/options/Options.tsx"></script>
+  </body>
+</html>
