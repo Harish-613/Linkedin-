@@ -44,7 +44,9 @@ All formulas are documented in `pipeline/lpp/insights.py`.
 
 ## Running it
 
-**Prerequisites:** Python 3.10+, Node 20+, PostgreSQL (local or Supabase), Redis (optional).
+**Quick start (macOS + Homebrew):** `./scripts/run_local.sh` installs Postgres, Redis, Python and Node if they're missing, loads real data, starts the API and builds the extension. Re-running it is safe.
+
+**Manually:** you need Python 3.10+, Node 20+, PostgreSQL (local or Supabase) and optionally Redis.
 
 ```bash
 # 1. Database + pipeline
