@@ -1,0 +1,39 @@
+name,domain,ats_provider,ats_token,crunchbase_permalink,aliases
+# Companies whose career pages are synced. ats_token is the board name in the job-board URL:
+#   boards.greenhouse.io/<token>   jobs.lever.co/<token>   jobs.ashbyhq.com/<token>
+# `lpp sync-careers` reports any token that 404s so it can be fixed. Add rows freely.
+Stripe,stripe.com,greenhouse,stripe,stripe,
+Airbnb,airbnb.com,greenhouse,airbnb,airbnb,
+Databricks,databricks.com,greenhouse,databricks,databricks,
+Robinhood,robinhood.com,greenhouse,robinhood,robinhood,Robinhood Markets
+Coinbase,coinbase.com,greenhouse,coinbase,coinbase,Coinbase Global
+Discord,discord.com,greenhouse,discord,discord,
+Figma,figma.com,greenhouse,figma,figma,
+Reddit,reddit.com,greenhouse,reddit,reddit,
+Dropbox,dropbox.com,greenhouse,dropbox,dropbox,
+Lyft,lyft.com,greenhouse,lyft,lyft,
+Pinterest,pinterest.com,greenhouse,pinterest,pinterest,
+Instacart,instacart.com,greenhouse,instacart,instacart,Maplebear
+Cloudflare,cloudflare.com,greenhouse,cloudflare,cloudflare,
+Datadog,datadoghq.com,greenhouse,datadog,datadog,
+Twilio,twilio.com,greenhouse,twilio,twilio,
+Duolingo,duolingo.com,greenhouse,duolingo,duolingo,
+Brex,brex.com,greenhouse,brex,brex,
+Affirm,affirm.com,greenhouse,affirm,affirm,Affirm Holdings
+Gusto,gusto.com,greenhouse,gusto,gusto,
+Asana,asana.com,greenhouse,asana,asana,
+Jane Street,janestreet.com,greenhouse,janestreet,jane-street-capital,
+Two Sigma,twosigma.com,greenhouse,twosigma,two-sigma-investments,
+Hudson River Trading,hudsonrivertrading.com,greenhouse,wehrtyou,hudson-river-trading,HRT
+Palantir,palantir.com,lever,palantir,palantir-technologies,Palantir Technologies
+Plaid,plaid.com,lever,plaid,plaid,
+Netflix,netflix.com,lever,netflix,netflix,
+Spotify,spotify.com,lever,spotify,spotify,
+Ramp,ramp.com,ashby,ramp,ramp-2,
+Notion,notion.so,ashby,notion,notion-so,Notion Labs
+OpenAI,openai.com,ashby,openai,openai,
+Linear,linear.app,ashby,linear,linear-app,
+Vercel,vercel.com,ashby,vercel,vercel,
+Supabase,supabase.com,ashby,supabase,supabase,
+Retool,retool.com,ashby,retool,retool,
+Mercury,mercury.com,ashby,mercury,mercury-technologies,

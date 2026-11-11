@@ -1,0 +1,17 @@
+[
+ {"id": "a1b2c3d4-0000-4000-8000-000000000001", "text": "Forward Deployed Software Engineer",
+  "hostedUrl": "https://jobs.lever.co/palantir/a1b2c3d4-0000-4000-8000-000000000001",
+  "applyUrl": "https://jobs.lever.co/palantir/a1b2c3d4-0000-4000-8000-000000000001/apply",
+  "createdAt": 1761600000000, "workplaceType": "onsite", "country": "US",
+  "categories": {"commitment": "Full-time", "department": "Engineering", "location": "New York, NY", "team": "Dev", "allLocations": ["New York, NY"]},
+  "salaryRange": {"currency": "USD", "interval": "per-year-salary", "min": 135000, "max": 200000},
+  "descriptionPlain": "Solve hard problems for our customers.",
+  "lists": [{"text": "Requirements", "content": "<li>Strong engineering background in algorithms</li><li>3+ years experience</li>"}],
+  "additionalPlain": ""},
+ {"id": "a1b2c3d4-0000-4000-8000-000000000002", "text": "Software Engineer Intern",
+  "hostedUrl": "https://jobs.lever.co/palantir/a1b2c3d4-0000-4000-8000-000000000002",
+  "createdAt": 1762000000000, "workplaceType": "hybrid",
+  "categories": {"commitment": "Intern", "location": "Seattle, WA", "team": "Dev"},
+  "salaryRange": {"currency": "USD", "interval": "per-hour-wage", "min": 55, "max": 60},
+  "descriptionPlain": "Summer 2027 internship.", "lists": []}
+]

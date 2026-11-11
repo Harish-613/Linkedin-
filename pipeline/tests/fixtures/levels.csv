@@ -1,0 +1,6 @@
+timestamp,company,level,title,totalyearlycompensation,location,yearsofexperience,yearsatcompany,tag,basesalary,stockgrantvalue,bonus
+6/7/2026 11:33:27,Ramp,L3,Software Engineer,215000,"New York, NY",1,0,Full Stack,165000,40000,10000
+6/9/2026 09:12:00,Ramp,L4,Senior Software Engineer,320000,"New York, NY",6,2,Backend,205000,100000,15000
+6/9/2026 09:12:00,Ramp,L4,Senior Software Engineer,320000,"New York, NY",6,2,Backend,205000,100000,15000
+6/10/2026 10:00:00,Coinbase,IC4,Software Engineer,265000,Remote,3,1,Backend,185000,70000,10000
+6/11/2026 10:00:00,,IC4,Software Engineer,265000,Remote,3,1,Backend,185000,70000,10000

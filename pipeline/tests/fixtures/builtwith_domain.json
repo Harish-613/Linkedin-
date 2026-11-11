@@ -1,0 +1,6 @@
+{"Results": [{"Result": {"Paths": [
+  {"Domain": "ramp.com", "Technologies": [
+    {"Name": "React", "Tag": "javascript", "Categories": ["JavaScript Library"], "FirstDetected": 1546300800000, "LastDetected": 1762000000000},
+    {"Name": "Cloudflare", "Tag": "cdn", "Categories": ["CDN"]}]},
+  {"Domain": "ramp.com", "SubDomain": "app", "Technologies": [{"Name": "React", "Tag": "javascript", "Categories": ["JavaScript Library"]}]}
+]}}]}

@@ -1,0 +1,51 @@
+{
+  "_comment": "Shared by pipeline/lpp/normalize.py and server/src/normalize.ts so both sides classify titles and match company names the same way. Rules are checked in order; first match wins.",
+  "company_suffixes": [
+    "incorporated", "inc", "corporation", "corp", "company", "co", "limited", "ltd", "llc", "l l c",
+    "plc", "holdings", "holding", "group", "technologies", "technology", "labs", "the", "sa", "nv", "ag", "se", "lp",
+    "global", "markets", "platforms", "international", "worldwide", "enterprises", "brands"
+  ],
+  "role_families": [
+    { "family": "machine_learning", "patterns": ["machine learning", "\\bml\\b", "\\bai\\b", "deep learning", "applied scientist", "research scientist", "computer vision", "\\bnlp\\b", "\\bllm\\b"] },
+    { "family": "data_science", "patterns": ["data scientist", "data science", "quantitative analyst", "decision scientist"] },
+    { "family": "quant", "patterns": ["quant(itative)? (researcher|trader|developer)", "\\btrader\\b", "trading"] },
+    { "family": "data_engineering", "patterns": ["data engineer", "analytics engineer", "etl", "data platform", "data infrastructure"] },
+    { "family": "security", "patterns": ["security", "appsec", "infosec", "detection", "\\bsoc\\b", "cryptograph"] },
+    { "family": "infrastructure", "patterns": ["site reliability", "\\bsre\\b", "devops", "infrastructure", "platform engineer", "cloud engineer", "systems engineer", "production engineer"] },
+    { "family": "mobile", "patterns": ["\\bios\\b", "android", "mobile"] },
+    { "family": "frontend", "patterns": ["front[- ]?end", "\\bui engineer", "web engineer", "react"] },
+    { "family": "backend", "patterns": ["back[- ]?end", "\\bapi\\b", "distributed systems", "server"] },
+    { "family": "software_engineering", "patterns": ["software", "\\bswe\\b", "developer", "engineer", "programmer", "full[- ]?stack"] },
+    { "family": "product_management", "patterns": ["product manager", "\\bpm\\b", "product lead", "program manager", "\\btpm\\b"] },
+    { "family": "design", "patterns": ["designer", "\\bux\\b", "\\bui\\b", "design"] },
+    { "family": "data_analytics", "patterns": ["analyst", "analytics", "business intelligence", "\\bbi\\b"] },
+    { "family": "sales", "patterns": ["account executive", "sales", "business development", "\\bsdr\\b", "\\bbdr\\b", "account manager"] },
+    { "family": "marketing", "patterns": ["marketing", "growth", "brand", "content", "communications"] },
+    { "family": "operations", "patterns": ["operations", "\\bops\\b", "supply chain", "logistics", "customer success", "support"] },
+    { "family": "finance", "patterns": ["finance", "accountant", "accounting", "controller", "\\bfp&a\\b", "tax", "treasury"] },
+    { "family": "people", "patterns": ["recruit", "talent", "people", "\\bhr\\b", "human resources"] },
+    { "family": "legal", "patterns": ["counsel", "legal", "attorney", "paralegal", "compliance"] }
+  ],
+  "family_fallbacks": {
+    "_comment": "When a role family has too little pay data, the API also shows its parent family.",
+    "backend": "software_engineering", "frontend": "software_engineering", "mobile": "software_engineering",
+    "infrastructure": "software_engineering", "security": "software_engineering",
+    "machine_learning": "software_engineering", "data_engineering": "software_engineering",
+    "data_science": "data_analytics", "quant": "software_engineering"
+  },
+  "seniority": [
+    { "level": "intern", "patterns": ["intern", "internship", "co-?op", "summer (analyst|associate)"] },
+    { "level": "new_grad", "patterns": ["new grad", "graduate", "university", "entry[- ]level", "early career", "junior", "\\bjr\\b", "associate (software|engineer)", "\\bi\\b$", "\\b1\\b$"] },
+    { "level": "executive", "patterns": ["\\bvp\\b", "vice president", "\\bhead of\\b", "\\bchief\\b", "\\bcto\\b", "\\bceo\\b", "\\bdirector\\b"] },
+    { "level": "manager", "patterns": ["manager", "\\blead\\b", "engineering manager"] },
+    { "level": "staff_plus", "patterns": ["staff", "principal", "distinguished", "fellow", "architect"] },
+    { "level": "senior", "patterns": ["senior", "\\bsr\\b", "\\biii\\b", "\\b3\\b$", "\\biv\\b"] },
+    { "level": "mid", "patterns": [".*"] }
+  ],
+  "pay_intervals_per_year": {
+    "year": 1, "annual": 1, "1 year": 1, "per-year-salary": 1, "yearly": 1,
+    "month": 12, "1 month": 12, "per-month-salary": 12, "monthly": 12,
+    "week": 52, "1 week": 52, "weekly": 52,
+    "hour": 2080, "1 hour": 2080, "per-hour-wage": 2080, "hourly": 2080
+  }
+}
