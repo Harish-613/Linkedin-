@@ -155,3 +155,18 @@ def test_levels_csv_import():
     assert rows[0]["reported_on"] == "2026-06-07"
     thousands = levels.parse_rows([{"company": "X", "title": "SWE", "basesalary": "185"}], "f.csv", unit=1000)
     assert thousands[0]["base_usd"] == 185000
+
+
+# ---------------------------------------------------------------- parity with the TypeScript API
+
+SHARED_CASES = json.loads((Path(__file__).resolve().parents[2] / "shared" / "test_cases.json").read_text())
+
+
+@pytest.mark.parametrize("raw,expected", SHARED_CASES["companies"])
+def test_shared_company_cases(raw, expected):
+    assert normalize_company(raw) == expected
+
+
+@pytest.mark.parametrize("title,family,level", SHARED_CASES["titles"])
+def test_shared_title_cases(title, family, level):
+    assert classify_title(title) == (family, level)
