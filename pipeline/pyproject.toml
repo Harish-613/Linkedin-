@@ -1,0 +1,22 @@
+[project]
+name = "lpp"
+version = "0.1.0"
+description = "LinkedIn++ data pipeline: SEC EDGAR, Crunchbase, Levels.fyi, BuiltWith and career pages into PostgreSQL"
+requires-python = ">=3.10"
+dependencies = ["psycopg[binary]>=3.1", "requests>=2.31"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+lpp = "lpp.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["lpp", "lpp.sources"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

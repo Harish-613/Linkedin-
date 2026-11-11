@@ -1,0 +1,16 @@
+{"apiVersion": "1", "jobs": [
+  {"id": "7f0e8a1c-1111-4222-8333-444455556666", "title": "Software Engineer, Backend", "location": "New York, NY",
+   "department": "Engineering", "team": "Payments", "isListed": true, "isRemote": false, "workplaceType": "OnSite",
+   "employmentType": "FullTime", "publishedAt": "2026-10-15T00:00:00.000+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/ramp/7f0e8a1c-1111-4222-8333-444455556666",
+   "applyUrl": "https://jobs.ashbyhq.com/ramp/7f0e8a1c-1111-4222-8333-444455556666/application",
+   "descriptionPlain": "Requirements: 2+ years building distributed systems. You'll complete a coding interview and a system design interview.",
+   "compensation": {"compensationTierSummary": "$170K – $260K • Offers Equity",
+     "summaryComponents": [
+       {"compensationType": "Salary", "interval": "1 YEAR", "currencyCode": "USD", "minValue": 170000, "maxValue": 260000},
+       {"compensationType": "EquityPercentage", "interval": "NONE", "currencyCode": null, "minValue": null, "maxValue": null}]}},
+  {"id": "hidden-1", "title": "Secret Role", "isListed": false, "jobUrl": "https://jobs.ashbyhq.com/ramp/hidden-1", "descriptionPlain": ""},
+  {"id": "8a9b0c1d-2222-4333-8444-555566667777", "title": "Product Designer", "location": "Remote", "isListed": true,
+   "isRemote": true, "publishedAt": "2026-09-01T00:00:00.000+00:00", "jobUrl": "https://jobs.ashbyhq.com/ramp/8a9b0c1d-2222-4333-8444-555566667777",
+   "descriptionPlain": "Design our product. The salary range for this role is $150k to $190k."}
+]}

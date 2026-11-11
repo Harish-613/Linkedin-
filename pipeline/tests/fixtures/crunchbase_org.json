@@ -1,0 +1,10 @@
+{"properties": {
+  "identifier": {"uuid": "3b9b8e0c", "value": "Ramp", "permalink": "ramp-2", "entity_def_id": "organization"},
+  "short_description": "Ramp is a finance automation platform.",
+  "website_url": "https://ramp.com",
+  "funding_total": {"value": 1900000000, "currency": "USD", "value_usd": 1900000000},
+  "last_funding_type": "series_e",
+  "founded_on": {"precision": "day", "value": "2019-03-01"},
+  "num_employees_enum": "c_01001_05000",
+  "categories": [{"entity_def_id": "category", "value": "FinTech"}, {"entity_def_id": "category", "value": "Finance"}]
+}}

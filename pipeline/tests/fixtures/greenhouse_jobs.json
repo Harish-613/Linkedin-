@@ -1,0 +1,13 @@
+{"jobs": [
+  {"id": 6012345, "internal_job_id": 401, "title": "Software Engineer, New Grad (2027)", "updated_at": "2026-10-20T14:03:11-04:00",
+   "requisition_id": "R-100", "location": {"name": "San Francisco, CA"},
+   "absolute_url": "https://boards.greenhouse.io/coinbase/jobs/6012345", "metadata": null,
+   "content": "&lt;p&gt;&lt;strong&gt;What you&amp;#39;ll do&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Build backend services in Go&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;: BS in CS, strong knowledge of algorithms and data structures.&lt;/p&gt;&lt;p&gt;Pay Transparency: The target annual base salary for this role is $140,000 - $160,000 USD.&lt;/p&gt;",
+   "departments": [{"id": 1, "name": "Engineering"}], "offices": [{"id": 2, "name": "SF"}]},
+  {"id": 6012399, "title": "Senior Machine Learning Engineer - Remote (USA)", "updated_at": "2026-10-28T09:00:00-04:00",
+   "location": {"name": "Remote - USA"}, "absolute_url": "https://boards.greenhouse.io/coinbase/jobs/6012399",
+   "content": "&lt;p&gt;5+ years of experience shipping ML systems. Experience with system design.&lt;/p&gt;",
+   "pay_input_ranges": [{"min_cents": 22100000, "max_cents": 26000000, "currency_type": "USD", "title": "US", "blurb": ""}],
+   "departments": [], "offices": []}
+ ],
+ "meta": {"total": 2}}

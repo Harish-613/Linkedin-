@@ -1,0 +1,4 @@
+{"domain": "ramp.com", "first": 1546300800000, "last": 1762000000000, "groups": [
+  {"name": "analytics", "live": 14, "dead": 6, "latest": 1762000000000, "oldest": 1546300800000,
+   "categories": [{"name": "Application Performance", "live": 2, "dead": 1}, {"name": "Conversion Optimization", "live": 0, "dead": 2}]},
+  {"name": "framework", "live": 3, "dead": 0, "categories": [{"name": "JavaScript Library", "live": 3, "dead": 0}]}]}

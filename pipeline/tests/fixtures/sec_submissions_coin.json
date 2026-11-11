@@ -1,0 +1,4 @@
+{"cik": "0001679788", "entityType": "operating", "sic": "6199", "sicDescription": "Finance Services",
+ "name": "Coinbase Global, Inc.", "tickers": ["COIN"], "exchanges": ["Nasdaq"], "website": "",
+ "stateOfIncorporation": "DE", "fiscalYearEnd": "1231",
+ "filings": {"recent": {"accessionNumber": ["0001679788-25-000010"], "form": ["10-K"], "filingDate": ["2025-02-13"]}}}
