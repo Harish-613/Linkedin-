@@ -1,0 +1,32 @@
+{
+  "_comment": "Run by both pipeline/tests and server/test so the Python and TypeScript normalizers stay identical.",
+  "companies": [
+    ["Stripe, Inc.", "stripe"],
+    ["Coinbase Global, Inc.", "coinbase"],
+    ["Robinhood Markets, Inc.", "robinhood"],
+    ["Meta Platforms, Inc.", "meta"],
+    ["Palantir Technologies Inc.", "palantir"],
+    ["The Walt Disney Company", "walt disney"],
+    ["AT&amp;T Inc.", "at&t"],
+    ["Société Générale S.A.", "societe generale"],
+    ["Jane Street", "jane street"],
+    ["Labs", "labs"],
+    ["  Two   Sigma  ", "two sigma"]
+  ],
+  "titles": [
+    ["Software Engineer, New Grad (2027)", "software_engineering", "new_grad"],
+    ["Senior Machine Learning Engineer - Remote (USA)", "machine_learning", "senior"],
+    ["Staff Backend Engineer, Payments", "backend", "staff_plus"],
+    ["Software Engineer Intern", "software_engineering", "intern"],
+    ["Software Engineering Intern - Summer 2027", "software_engineering", "intern"],
+    ["iOS Engineer II", "mobile", "mid"],
+    ["Quantitative Researcher", "quant", "mid"],
+    ["Engineering Manager, Infrastructure", "infrastructure", "manager"],
+    ["Product Designer", "design", "mid"],
+    ["Account Executive, Enterprise", "sales", "mid"],
+    ["VP of Finance", "finance", "executive"],
+    ["Frontend Engineer (React)", "frontend", "mid"],
+    ["Data Engineer III", "data_engineering", "senior"],
+    ["Chef", "other", "mid"]
+  ]
+}
